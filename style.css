@@ -1,0 +1,59 @@
+/* esconde bloco de informações*/
+.hide{
+    display: none;
+  }
+
+  /* exibe bloco de informações*/
+  .show{
+    display: block;
+  }
+
+  h1,h2{
+    color: #000080;
+    font-size: 20px ;
+    font-style:italic;
+    font-family: Courier, monospace;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .correta{
+    color: #32CD32;
+  }
+
+  .incorreta{
+    color:#FF0000;
+  }
+
+  button{
+    width:250px;
+    color:#0000CD;
+    text-align: center;
+    font-size: 50px ;
+    font-weight:bold;
+    font-family: Courier, monospace;
+    border-radius: 6px;
+    background-color: #ADD8E6;
+    font-size: 18px;
+  }
+
+  footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    font-family: Courier, monospace;
+    font-style:italic;
+    text-align: center;
+  }
+
+  body{
+    background-image: url("imagemFundo4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+  }
+  
