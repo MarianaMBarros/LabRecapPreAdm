@@ -1,3 +1,3 @@
 # Recap Projeto Pré-Admissão
 
-Quiz
+Trivia sem a utilização de Prompt
