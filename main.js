@@ -99,7 +99,7 @@ function enableDisableRadios(disabled){
 
 function backGame(){
     document.getElementById("game").className="hide";
-    document.getElementById("choiceGame").className="btnShow";
+    document.getElementById("choiceGame").className="show center";
     document.getElementById("finish").className="btnShow";
     document.getElementById("backGame").className="hide";
  }

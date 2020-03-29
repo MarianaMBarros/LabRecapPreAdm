@@ -30,10 +30,9 @@ h1,h2{
 }
 
 button{
-  width:250px;
+  width:200px;
   color:#0000CD;
-  text-align: center;
-  font-size: 50px ;
+  text-align: center;  
   font-weight:bold;
   font-family: Courier, monospace;
   border-radius: 6px;
@@ -60,14 +59,14 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
+  margin: auto;
 }
   
 
 .buttonGame{
   color:#0000CD;
   text-align: center;
-  padding: 50px 20px;
-  font-size: 50px ;
+  padding: 50px 20px;  
   font-family: Courier, monospace;  
   border-radius: 6px;;
   font-size: 18px;
