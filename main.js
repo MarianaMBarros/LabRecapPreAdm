@@ -8,7 +8,7 @@ function enterGame(){
 
 
  document.getElementById("initial").className="hide";  
- document.getElementById("choiceGame").className="show";  
+ document.getElementById("choiceGame").className="show center";  
  
 }
 
@@ -58,7 +58,7 @@ function game(questions){
 
 
     document.getElementById("choiceGame").className="hide";
-    document.getElementById("game").className="show";
+    document.getElementById("game").className="show center";
 }
 
 //exibe as respostas 
@@ -86,7 +86,7 @@ function finish(){
     enableDisableRadios(true)
 
     document.getElementById("finish").className="hide";
-    document.getElementById("backGame").className="show";
+    document.getElementById("backGame").className="btnShow";
     
 }
 
@@ -99,8 +99,8 @@ function enableDisableRadios(disabled){
 
 function backGame(){
     document.getElementById("game").className="hide";
-    document.getElementById("choiceGame").className="show";
-    document.getElementById("finish").className="show";
+    document.getElementById("choiceGame").className="btnShow";
+    document.getElementById("finish").className="btnShow";
     document.getElementById("backGame").className="hide";
  }
  

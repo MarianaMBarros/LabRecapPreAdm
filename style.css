@@ -1,59 +1,77 @@
 /* esconde bloco de informações*/
 .hide{
-    display: none;
-  }
+  display: none;
+}
 
-  /* exibe bloco de informações*/
-  .show{
-    display: block;
-  }
+/* exibe bloco de informações*/
+.show{
+  display: block;
+}
 
-  h1,h2{
-    color: #000080;
-    font-size: 20px ;
-    font-style:italic;
-    font-family: Courier, monospace;
-    margin-top: 0;
-    text-align: center;
-  }
+.btnShow{
+  display: inline;
+}
 
-  .correta{
-    color: #32CD32;
-  }
+h1,h2{
+  color: #000080;
+  font-size: 20px ;
+  font-style:italic;
+  font-family: Courier, monospace;
+  margin-top: 0;
+  text-align: center;
+}
 
-  .incorreta{
-    color:#FF0000;
-  }
+.correta{
+  color: #32CD32;
+}
 
-  button{
-    width:250px;
-    color:#0000CD;
-    text-align: center;
-    font-size: 50px ;
-    font-weight:bold;
-    font-family: Courier, monospace;
-    border-radius: 6px;
-    background-color: #ADD8E6;
-    font-size: 18px;
-  }
+.incorreta{
+  color:#FF0000;
+}
 
-  footer{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    font-family: Courier, monospace;
-    font-style:italic;
-    text-align: center;
-  }
+button{
+  width:250px;
+  color:#0000CD;
+  text-align: center;
+  font-size: 50px ;
+  font-weight:bold;
+  font-family: Courier, monospace;
+  border-radius: 6px;
+  background-color: #ADD8E6;
+  font-size: 18px;
+}
 
-  body{
-    background-image: url("imagemFundo4.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-align: center;
-    
-  }
+.center{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5rem;
+  background-image: linear-gradient( white, purple); 
+} 
+
+footer{ 
+  width: 100%;
+  padding: 10px 20px;
+  background: #f8fafb;
+  box-sizing: border-box;
+}
+
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+  
+
+.buttonGame{
+  color:#0000CD;
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 50px ;
+  font-family: Courier, monospace;  
+  border-radius: 6px;;
+  font-size: 18px;
+}
+
+
   

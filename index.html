@@ -9,22 +9,26 @@
 </head>
 <body>
     <main>
-        <header id="initial" class="show">
+        <img src="quizFundo.jpg">
+        <header id="initial" class="show center">
         <h2>Vamos Testar seus Conhecimentos</h2>
         <input id="name" type="text" placeholder="Digite seu nome" maxlength="10"> 
-            <main id="enter">
-                <button  onclick="enterGame()">Entrar</button>
+            <main class="buttonGame">
+                <button onclick="enterGame()">Entrar</button>
             </main> 
         </header> 
     </main>
 
     <main>
-        <header id="choiceGame" class="hide center">
+        <header id="choiceGame" class="hide">
             <h1 id="user"></h1>
             <h2>Escolha o Tema que Deseja Jogar</h2>
-            <button onclick="option(1,'Matematica')">Matematica</button> 
-            <button onclick="option(2, 'Conhecimentos Gerais')">Conhecimentos Gerais</button>
-            <button onclick="exit()">Sair</button>
+            <main class="buttonGame">
+                <button onclick="option(1,'Matematica')">Matematica</button> 
+                <button onclick="option(2, 'Conhecimentos Gerais')">Conhecimentos Gerais</button>
+                <button onclick="exit()">Sair</button>
+            </main>
+            
         </header>
     </main>
 
@@ -32,10 +36,11 @@
         <header id="game" class="hide">
              <h1 id="tema"></h1>
             <div id="questionsHtml"></div>
-            <button onclick="finish()" id="finish">Finalizar</button>
-            <button onclick="backGame()"  id="backGame" class="hide">Jogar Novamente</button>
-            <button onclick="exit()">Sair</button>
-         
+            <main class="buttonGame">
+                <button onclick="finish()" id="finish">Finalizar</button>
+                <button onclick="backGame()"  id="backGame" class="hide">Jogar Novamente</button>
+                <button onclick="exit()">Sair</button>
+            </main>         
         </header>
     </main>
 
