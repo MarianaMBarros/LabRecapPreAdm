@@ -1,7 +1,7 @@
 # Recap Projeto Pré-Admissão Laboratória 
 
 ## 1. Resumo do Projeto
- Desolvolver um simulador onde o usuario escolhe a matéria que deseja testar seus conhecimentos.
+ Desolvolver um simulador onde o usuário escolhe a matéria que deseja testar seus conhecimentos.
 
 
 ## 2. Considerações técnicas
